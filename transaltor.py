@@ -51,3 +51,13 @@ translations = {
     'e': toE,
     'f': toF
 }
+
+if (__name__ == "__main__"):
+    print()
+    print("This module has functions for moving a piece from position A to any other position")
+    print("Usage:")
+    print()
+    print("from translator import translations")
+    print("...")
+    print("pieceInPosD = translations['d'](pieceInPosA)")
+    print()
