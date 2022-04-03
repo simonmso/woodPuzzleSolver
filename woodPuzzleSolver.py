@@ -24,17 +24,3 @@ if (__name__ == '__main__'):
 
 
 
-    # for piece in pieces:
-    #     for pos in positions:
-    #         p1 = translations[pos](piece)
-
-
-    # # for translator debugging:
-    # t = translations['f'](pieces[1])
-    # print()
-    # print('piece -> translated')
-    # for (i, point) in enumerate(pieces[1]):
-    #     print(f'{point}  ->  {t[i]}')
-
-    # print()
-
