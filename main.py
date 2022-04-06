@@ -27,21 +27,8 @@ def main ():
                 movedPieces.append(movedPiece)
             if not piecesOverlap(movedPieces):
                 print('Success!', ''.join(moveComb), ' ', rotComb)
-        if i % 25 == 0: print(i, 'tested')
-
-def tmp ():
-    printPieces(pieces)
-    
-
-    # testing rotation
-    # piece = pieces[1]
-    # for turns in range(4):
-    #     rot = turnPieceNTimes(piece, turns)
-    #     print(f'after {turns} turns:')
-    #     printPiece(rot)
+        if i % 100000 == 0: print(i, 'tested')
 
 
 if (__name__ == '__main__'): main()
-# if (__name__ == '__main__'): tmp()
-
 
