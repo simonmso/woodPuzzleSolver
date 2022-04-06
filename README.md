@@ -2,7 +2,7 @@
 
 Our family has this wooden puzzle. It is made of 6 pieces. For the last three years, though we tried many times to find a solution, it has stayed apart.
 
-![Scattered puzzle pieces](img/irl1.JPG)
+<img src="https://github.com/simonmso/woodPuzzleSolver/blob/65f3d0cdd813d07c4bbc7444b184c509b02fce0b/img/irl1.JPG" width="400" />
 
 That's what this is for!
 
@@ -12,19 +12,19 @@ That's what this is for!
 
 When solved, this is what the puzzle looks like:
 
-![Solved Puzzle 1](img/irl3.JPG =250x)
+<img src="https://github.com/simonmso/woodPuzzleSolver/blob/65f3d0cdd813d07c4bbc7444b184c509b02fce0b/img/irl3.JPG" width="400" />
 
-![Solved Puzzle 2](img/irl2.jpg = 250x)
+<img src="https://github.com/simonmso/woodPuzzleSolver/blob/65f3d0cdd813d07c4bbc7444b184c509b02fce0b/img/irl2.JPG" width="400" />
 
 ### Defining the pieces
 
 In each block, we really only care about the middle section, made from 16 cubes that can either be present or missing. By defining a coordinate space, we can treat each cube as an (x, y, z) point. 
 
-![Figure 1: The Coordinate System](img/1.svg)
+<img src="https://github.com/simonmso/woodPuzzleSolver/blob/65f3d0cdd813d07c4bbc7444b184c509b02fce0b/img/1.svg" width="500" />
 
 A piece is defined as a list of every present cube. For example, piece 4,
 
-![Figure 2: Piece 4](img/2.svg)
+<img src="https://github.com/simonmso/woodPuzzleSolver/blob/65f3d0cdd813d07c4bbc7444b184c509b02fce0b/img/2.svg" width="200" />
 
 is saved in `pieces.py` as
 
@@ -46,7 +46,7 @@ Run `> python pieces.py` to view each piece.
 
 ### Defining the positions
 
-Before attempting a solution, each piece can be rotated around its vertical principal axis in 90° increments. A piece rotated counter-clockwise 270° has `3` turns.
+Before attempting a solution, each piece can be rotated around its vertical principal axis in 90° increments. A piece rotated counter-clockwise 270° is said to have `3` turns, as it has been rotated in 3 90° increments.
 
 ![Figure 3: Axis of rotation](img/3.svg)
 
