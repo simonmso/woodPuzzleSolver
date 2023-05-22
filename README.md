@@ -2,7 +2,7 @@
 
 Our family has this wooden puzzle. It is made of 6 pieces. For the last three years, though we tried many times to find a solution, it has stayed apart.
 
-<img src="https://github.com/simonmso/woodPuzzleSolver/blob/65f3d0cdd813d07c4bbc7444b184c509b02fce0b/img/irl1.JPG" width="400" />
+<img src="https://raw.githubusercontent.com/simonmso/woodPuzzleSolver/master/img/irl1.JPG" width="400" />
 
 That's what this is for!
 
@@ -12,19 +12,23 @@ That's what this is for!
 
 When solved, this is what the puzzle looks like:
 
-<img src="https://github.com/simonmso/woodPuzzleSolver/blob/65f3d0cdd813d07c4bbc7444b184c509b02fce0b/img/irl3.JPG" width="400" />
 
-<img src="https://github.com/simonmso/woodPuzzleSolver/blob/65f3d0cdd813d07c4bbc7444b184c509b02fce0b/img/irl2.JPG" width="400" />
+<img src="https://raw.githubusercontent.com/simonmso/woodPuzzleSolver/master/img/irl3.JPG" width="400" />
+
+
+<img src="https://raw.githubusercontent.com/simonmso/woodPuzzleSolver/master/img/irl2.JPG" width="400" />
 
 ### Defining the pieces
 
 In each block, we really only care about the middle section, made from 16 cubes that can either be present or missing. By defining a coordinate space, we can treat each cube as an (x, y, z) point. 
 
-<img src="https://github.com/simonmso/woodPuzzleSolver/blob/65f3d0cdd813d07c4bbc7444b184c509b02fce0b/img/1.svg" width="500" />
+
+<img src="https://raw.githubusercontent.com/simonmso/woodPuzzleSolver/master/img/1.svg" width="500" />
 
 A piece is defined as a list of every present cube. For example, piece 4,
 
-<img src="https://github.com/simonmso/woodPuzzleSolver/blob/65f3d0cdd813d07c4bbc7444b184c509b02fce0b/img/2.svg" width="200" />
+
+<img src="https://raw.githubusercontent.com/simonmso/woodPuzzleSolver/master/img/2.svg" width="200" />
 
 is saved in `pieces.py` as
 
